@@ -144,27 +144,27 @@ SEE THE SCHEDULER_FAQ.txt for more info
 
 <Scheduler>
 
-<!-- Repeating messages every 15 minutes with 10 second delay between message -->
+<!-- Повторение сообщений каждые 15 минут с 10-секундной задержкой между сообщениями  -->
     <job id='0'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>000030</start>
 		<runtime>001500</runtime>
 		<loop>-1</loop>
-		<cmd>say -1 Welcome To xxxxxxxx Roleplay Server</cmd>
+		<cmd>Приветствуем на сервере DG-х15 Loot </cmd>
 	</job>
 	<job id='1'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>000040</start>
 		<runtime>001500</runtime>
 		<loop>-1</loop>
-		<cmd>say -1 Please Be Aware That This Server Is A TEST SERVER</cmd>
+		<cmd>Запрещено Строить Базу около Военнок(500м)</cmd>
 	</job>	
     <job id='2'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>000050</start>
 		<runtime>001500</runtime>
 		<loop>-1</loop>
-		<cmd>say -1 Have Any Suggestion Or Feedback? Discord: xxxxxx</cmd>
+		<cmd>Есть ли предложения или связаться с Админом наш дискорд:https://discord.gg/GkM5zfyJkd</cmd>
 	</job>
 	<job id='3'>
 		<day>1,2,3,4,5,6,7</day>
@@ -178,7 +178,7 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>000070</start>
 		<runtime>001500</runtime>
 		<loop>-1</loop>
-		<cmd>say -1 This Server Restart Every 3 Hours</cmd>
+		<cmd>Рестарты каждые 3 часа </cmd>
 	</job>	
 <!-- End repeat messages -->
 
@@ -189,28 +189,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>05:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут до рестарта</cmd>
 	</job>
 	<job id='6'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>05:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='7'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>05:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='8'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>05:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='9'>
 		<day>1,2,3,4,5,6,7</day>
@@ -227,28 +227,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>08:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут рестарта</cmd>
 	</job>
 	<job id='11'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>08:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='12'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>08:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='13'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>08:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='14'>
 		<day>1,2,3,4,5,6,7</day>
@@ -265,28 +265,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>11:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут до рестарта</cmd>
 	</job>
 	<job id='16'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>11:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='17'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>11:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='18'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>11:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='19'>
 		<day>1,2,3,4,5,6,7</day>
@@ -303,28 +303,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>14:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут до рестарта</cmd>
 	</job>
 	<job id='21'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>14:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='22'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>14:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='23'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>14:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='24'>
 		<day>1,2,3,4,5,6,7</day>
@@ -341,28 +341,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>17:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут до рестарта</cmd>
 	</job>
 	<job id='26'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>17:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='27'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>17:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='28'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>17:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='29'>
 		<day>1,2,3,4,5,6,7</day>
@@ -379,28 +379,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>20:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут до рестарта</cmd>
 	</job>
 	<job id='31'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>20:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='32'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>20:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='33'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>20:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='34'>
 		<day>1,2,3,4,5,6,7</day>
@@ -417,28 +417,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>23:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут до рестарта</cmd>
 	</job>
 	<job id='36'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>23:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='37'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>23:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='38'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>23:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='39'>
 		<day>1,2,3,4,5,6,7</day>
@@ -456,28 +456,28 @@ SEE THE SCHEDULER_FAQ.txt for more info
 		<start>02:45:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 15 minutes</cmd>
+		<cmd>15 минут до рестарта</cmd>
 	</job>
 	<job id='41'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>02:50:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 10 minutes</cmd>
+		<cmd>10 минут до рестарта</cmd>
 	</job>
 	<job id='42'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>02:55:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 5 minutes</cmd>
+		<cmd>5 минут до рестарта</cmd>
 	</job>
 	<job id='43'>
 		<day>1,2,3,4,5,6,7</day>
 		<start>02:59:00</start>
 		<runtime>000020</runtime>
 		<loop>0</loop>
-		<cmd>say -1 This server will restart in 1 minutes</cmd>
+		<cmd>1 минута до рестарта</cmd>
 	</job>
     <job id='44'>
 		<day>1,2,3,4,5,6,7</day>
